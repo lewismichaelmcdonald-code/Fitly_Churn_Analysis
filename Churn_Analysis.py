@@ -8,9 +8,9 @@ print('='*30)
 print('Loading Datasets')
 print('='*30)
 
-account_info = pd.read_csv('C:/Users/lewis/Desktop/Projects/Datacamp Practical Project/da_fitly_account_info.csv')
-customer_support = pd.read_csv('C:/Users/lewis/Desktop/Projects/Datacamp Practical Project/da_fitly_customer_support.csv')
-user_activity = pd.read_csv('C:/Users/lewis/Desktop/Projects/Datacamp Practical Project/da_fitly_user_activity.csv')
+account_info = pd.read_csv('C:/Users/lewis/Desktop/Projects/Churn_Analysis_Project/da_fitly_account_info.csv')
+customer_support = pd.read_csv('C:/Users/lewis/Desktop/Projects/Churn_Analysis_Project/da_fitly_customer_support.csv')
+user_activity = pd.read_csv('C:/Users/lewis/Desktop/Projects/Churn_Analysis_Project/da_fitly_user_activity.csv')
 
 # Check data imported properly
 print(account_info.head(5))
